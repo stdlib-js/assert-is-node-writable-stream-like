@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNodeWritableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-writable-stream-like@deno/mod.js';
+import isNodeWritableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-writable-stream-like@v0.2.1-deno/mod.js';
 ```
 
 #### isNodeWritableStreamLike( value )
@@ -75,7 +75,7 @@ var bool = isNodeWritableStreamLike( transformStream() );
 ```javascript
 var stream = require( 'stream' );
 import transformStream from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node-transform@deno/mod.js';
-import isNodeWritableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-writable-stream-like@deno/mod.js';
+import isNodeWritableStreamLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-writable-stream-like@v0.2.1-deno/mod.js';
 
 var bool = isNodeWritableStreamLike( new stream.Writable() );
 // returns true
